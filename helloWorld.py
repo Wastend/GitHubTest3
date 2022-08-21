@@ -6,6 +6,9 @@ def rand(a, b):
 def summ(a, b):
     return a+b
 
+def minus(a,b):
+    return a-b
 
 print(summ(2,5))
 print(rand(1,10))
+print(minus(10,4))
