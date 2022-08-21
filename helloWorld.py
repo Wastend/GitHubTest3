@@ -1,11 +1,11 @@
 import random
 
-print(random.randint(1,5))
-print('привет потомкам')
-a = 1
-b = 3
-def summ():
+def rand(a, b):
+    return random.randint(a,b)
+
+def summ(a, b):
     return a+b
-github = 'hello'
-print(github*3)
-print(summ())
+
+
+print(summ(2,5))
+print(rand(1,10))
